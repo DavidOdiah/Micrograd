@@ -1,10 +1,13 @@
 USED LIBRARY:
+
 - maths
 - random
 
 
 CREATING MICROGRAD:
+
 Create our Engine:
+
 	Value class.
 		- Houses our data for each value
 		- Should be able to perform the operations needed for our value object to be used in a Neural Network.
@@ -13,6 +16,7 @@ Create our Engine:
 		- Should be able to performback propagation.
      
 Create our Neural Network:
+
 	Neuron class:
 		- Houses our weight and Bias Values in the neuron
 		- Should pass our input through our Neuron and the output through our activation function when called on an input data.
